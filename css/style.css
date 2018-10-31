@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+
+div.clearfix {
+	clear: both;
+}
+
+body div.wrapper div.left-column {
+	float: left;
+	width: 50%;
+	height: 100vh;
+	background-color: #212531;
+	/*outline: 1px dotted orange; // test - to delete this */
+	position: relative;
+}
+
+body div.wrapper div.left-column div.left-welcome {
+	height: 238px;
+	background-color: #1e212c;
+	width: 520px;
+	position: absolute;
+	right: 0px;
+	top: 50vh;
+	margin-top: -20px;
+	border: 1px solid #242835;
+	border-right: none;
+	border-radius: 5px 0 0 5px;
+}
+
+body div.wrapper div.left-column div.left-welcome h3 {
+	padding-left: 30px;
+	color: #fff;
+	font-size: 1.5em;
+}
+
+body div.wrapper div.left-column div.left-welcome p {
+	color: #bcbcbe;
+	padding-left: 15px;
+	font-size: 1.1em;
+}
+
+body div.wrapper div.right-column {
+	float: left;
+	width: 50%;
+	height: 100vh;
+	background-color: #2a9ff6;
+	/*outline: 1px dotted red; // test - to delete this */
+}
+
+body div.wrapper div.right-column div.right-form {
+	color: #7f8fa4;
+	margin-top: 50vh;
+	height: 300px;
+	background-color: #fff;
+	width: 520px;
+	border-radius: 0 0 5px 0;
+}
+
+body div.wrapper div.right-column div.right-form form {
+	padding: 55px 40px;
+}
+
+body div.wrapper div.right-column div.right-form form label {
+	color: #7f8fa4;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+
+body div.wrapper div.right-column div.right-form form input {
+	margin: 6px 0;
+	padding: 8px 6px;
+	color: #354052;
+	font-weight: 600;
+	background-color: #f8fafc;
+	border: 1px solid #dfe3e9;
+	border-radius: 3px;
+	min-width: 90%;
+}
+
+body div.wrapper div.right-column div.right-form-buttons {
+	padding: 20px 40px;
+	/*outline: 1px solid red;*/
+}
+
+body div.wrapper div.right-column div.right-form-buttons a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	padding-left: 30px;
+	font-size: 0.8em;
+}
+
+body div.wrapper div.right-column div.right-form-buttons button.loguj{
+	border: none;
+	background-color: #1f5480;
+	color: white;
+	padding: 6px 17px;
+	border-radius: 3px;
+	font-weight: 600;
+}
+
+body div.wrapper div.right-column div.right-form div.form-title {
+	height: 60px;
+	background-color: #2a9ff6;
+	line-height: 60px;
+	/*outline: 1px dotted orange; */
+	padding-left: 30px;
+	margin-top: -80px;
+}
+
+body div.wrapper div.right-column div.right-form div.form-title p {
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 600;
+	letter-spacing: 1.2px;
+}
